@@ -1,0 +1,17 @@
+name: yii2-zendesk
+recipe: lamp
+config:
+  webroot: .
+  php: "8.2"
+services:
+  appserver:
+    overrides:
+      environment:
+        COMPOSER_HOME: /tmp/composer
+tooling:
+  composer:
+    service: appserver
+  php:
+    service: appserver
+  bash:
+    service: appserver

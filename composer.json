@@ -1,0 +1,27 @@
+{
+  "name": "alessandrohgo/yii2-zendesk",
+  "description": "Yii2 Zendesk integration module.",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "yiisoft/yii2": "^2.0",
+    "yiisoft/yii2-httpclient": "^2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alessandrohgo\\Yii2Zendesk\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
