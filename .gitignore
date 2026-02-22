@@ -1,5 +1,12 @@
-/vendor
+/vendor/
 /composer.lock
-/.idea
-/.vscode
+
+# Local env / tooling
+/.idea/
+/.vscode/
+.lando.yml
 .DS_Store
+
+# Logs / caches (se capitano)
+*.log
+.phpunit.result.cache
